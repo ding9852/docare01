@@ -1,0 +1,25 @@
+{
+  "name": "salubris",   //项目名称（必须）
+  "version": "1.0.0",   //项目版本（必须）
+  "description": "xinlitai",   //项目描述（必须）
+  "homepage": "",   //项目主页
+  "author": {    //项目作者信息
+    "name": "xlong",
+    "email": "xinlong.yang@cardioval.com"
+  },
+  "license": "ISC",    //项目许可协议
+  "private": true,
+  "scripts": {
+    "prod": "gulp --production",
+    "dev": "gulp watch"
+  },
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.0",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "laravel-elixir": "^5.0.0"
+  },
+  "dependencies": {
+    "gulp-rename": "^1.2.2"
+  }
+}

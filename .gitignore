@@ -1,0 +1,16 @@
+﻿/public/upload
+.env
+.idea/
+composer.lock
+storage/logs
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+public/jpush.log
+public/laravel.log
+*.DS_Store
+vendor/*
+
+将删除 cache/
+将删除 sessions/
+将删除 views/
